@@ -17,23 +17,61 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:text="@string/email"/>
+            android:text="@string/prompt_email"/>
     <TextView
             android:id="@+id/user_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/prompt_fist_name"/>
+    <TextView
+        android:id="@+id/user_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/prompt_last_name"/>
+    <TextView
+        android:id="@+id/user_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:text="@string/password"/>
+            android:text="@string/prompt_password"/>
     <TextView
             android:id="@+id/user_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/prompt_address"/>
+    <TextView
+        android:id="@+id/user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
 
     <Button
             android:id="@+id/exit_button"

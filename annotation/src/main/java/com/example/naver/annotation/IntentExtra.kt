@@ -1,8 +1,6 @@
 package com.example.naver.annotation
 
-import kotlin.reflect.KClass
-
-@Target(AnnotationTarget.PROPERTY)
+@Target(AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.SOURCE)
-annotation class IntentExtra(val key: String)
+annotation class IntentExtra
 

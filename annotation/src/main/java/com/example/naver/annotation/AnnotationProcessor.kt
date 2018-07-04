@@ -7,29 +7,31 @@ import java.io.File
 import javax.annotation.processing.AbstractProcessor
 import javax.annotation.processing.Processor
 import javax.annotation.processing.RoundEnvironment
+import javax.annotation.processing.SupportedAnnotationTypes
 import javax.lang.model.SourceVersion
 import javax.lang.model.element.Element
 import javax.lang.model.element.TypeElement
 import javax.tools.Diagnostic
 
+@SupportedAnnotationTypes("com.example.naver.annotation.Launcher", "com.example.naver.annotation.IntentExtra")
 @AutoService(Processor::class)
 class AnnotationProcessor : AbstractProcessor () {
 
     private val activityInfoMap: HashMap<String, ActivityInfo> = HashMap()
-
-    override fun getSupportedAnnotationTypes(): MutableSet<String> {
-        return mutableSetOf(Launcher::class.java.name)
-    }
 
     override fun getSupportedSourceVersion(): SourceVersion {
         return SourceVersion.latest()
     }
 
     override fun process(set: MutableSet<out TypeElement>, roundEnv: RoundEnvironment): Boolean {
-        println("ANNOTATION PROCESS")
         activityInfoMap.clear()
+        roundEnv.getElementsAnnotatedWith(IntentExtra::class.java)
+                .forEach {
+                    classifyIntentExtraElement(it)
+                }
         roundEnv.getElementsAnnotatedWith(Launcher::class.java)
-                .forEach { classifyLauncherElement(it) }
+                .forEach {
+                    classifyLauncherElement(it) }
 
         if (activityInfoMap.isEmpty()) {
             processingEnv.messager.printMessage(Diagnostic.Kind.WARNING, "NOTHING TO PROCESS.")
@@ -41,7 +43,9 @@ class AnnotationProcessor : AbstractProcessor () {
             return false
         }
 
-        activityInfoMap.values.forEach { LauncherClassGenerator.generateFileSpec(it).writeTo(File(kaptKotlinGeneratedDir)) }
+        activityInfoMap.values.forEach {
+            ClassGenerator(it).generate(File(kaptKotlinGeneratedDir))
+        }
 
         return true
     }
@@ -59,9 +63,7 @@ class AnnotationProcessor : AbstractProcessor () {
 
         val activityInfo = activityInfoMap[activityFullName]
         val isRequired = annotatedElement.getAnnotation(NonNull::class.java) != null
-        activityInfo?.addField(Field(annotatedElement), isRequired)
-
-        //roundsupertypes.....
+        activityInfo!!.addField(Field(annotatedElement), isRequired)
     }
 
     private fun classifyLauncherElement(annotatedElement: Element) {
@@ -73,7 +75,5 @@ class AnnotationProcessor : AbstractProcessor () {
         if (!activityInfoMap.containsKey(activityFullName)) {
             activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName, typeMirror.asTypeName())
         }
-
-        //roundsupertypes.....
     }
 }

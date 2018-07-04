@@ -10,57 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb7258a-e849-4813-8f00-4eca275700fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/annotation.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_1_3_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_1_3_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ParserClassGenerator.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/MyTestApplication.iml" afterPath="$PROJECT_DIR$/MyTestApplication.iml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ClassGenerator.kt" />
+      <change beforePath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Samples.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -164,14 +125,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47442517">
+    <splitter split-orientation="horizontal" split-proportion="0.5373312">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -197,23 +158,64 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LauncherClassGenerator.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt">
+          <file leaf-file-name="FunSpec.kt" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/FunSpec.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+                <state relative-caret-position="439">
+                  <caret line="305" column="13" lean-forward="false" selection-start-line="305" selection-start-column="13" selection-end-line="305" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Field.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainActivityLauncher.kt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainActivityParser.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityParser.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Element.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/element/Element.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding>
-                    <element signature="e#38#128#0" expanded="true" />
+                    <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
+                    <marker date="1523678402000" expanded="false" signature="148:310" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                  <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -222,62 +224,62 @@
           <file leaf-file-name="LoginActivity.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                   <folding>
-                    <element signature="e#45#172#0" expanded="true" />
+                    <element signature="e#45#203#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="KModifier.kt" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/KModifier.kt">
+          <file leaf-file-name="EditText.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/widget/EditText.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
-                  <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TypeSpec.kt" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeSpec.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="542" column="19" lean-forward="false" selection-start-line="542" selection-start-column="19" selection-end-line="542" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IntentExtra.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Launcher.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SampleActivityLauncher.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+                <state relative-caret-position="251">
+                  <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
                   <folding>
-                    <element signature="e#38#95#0" expanded="true" />
+                    <marker date="1501054011000" expanded="false" signature="0:104" ph="/.../" />
+                    <marker date="1501054011000" expanded="false" signature="138:354" ph="..." />
+                    <marker date="1501054011000" expanded="false" signature="434:542" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="601:709" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="786:894" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="988:1096" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1134:1186" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1231:1283" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1341:1393" ph="{...}" />
+                    <marker date="1501054011000" expanded="true" signature="1425:1477" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1539:1591" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1643:1695" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1737:1789" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1819:1871" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="1916:1968" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="2020:2072" ph="{...}" />
+                    <marker date="1501054011000" expanded="false" signature="2126:2178" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+              <provider editor-type-id="android-designer2">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="108" column="37" lean-forward="false" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#366#399#0" expanded="true" />
+                    <element signature="e#434#469#0" expanded="true" />
+                    <element signature="e#505#540#0" expanded="true" />
+                    <element signature="e#574#607#0" expanded="true" />
+                    <element signature="e#1830#1852#0" expanded="true" />
+                    <element signature="e#2469#2495#0" expanded="true" />
+                    <element signature="e#3099#3125#0" expanded="true" />
+                    <element signature="e#3741#3766#0" expanded="true" />
+                    <element signature="e#4377#4401#0" expanded="true" />
+                    <element signature="e#4926#4950#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -286,8 +288,8 @@
           <file leaf-file-name="ActivityInfo.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -297,14 +299,53 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="IntentExtra.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
                   <folding>
-                    <element signature="e#46#217#0" expanded="true" />
+                    <element signature="e#46#307#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+              <provider editor-type-id="android-designer2">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="719">
+                  <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#847#869#0" expanded="true" />
+                    <element signature="e#1252#1278#0" expanded="true" />
+                    <element signature="e#1650#1676#0" expanded="true" />
+                    <element signature="e#2068#2093#0" expanded="true" />
+                    <element signature="e#2479#2503#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -312,30 +353,32 @@
           <file leaf-file-name="AnnotationProcessor.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+                <state relative-caret-position="480">
+                  <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
                   <folding>
-                    <element signature="e#38#486#0" expanded="true" />
+                    <element signature="e#38#546#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MainActivityLauncher.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
+          <file leaf-file-name="ClassGenerator.kt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ClassGenerator.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="1895">
+                  <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#38#148#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <file leaf-file-name="Samples.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Samples.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+                <state relative-caret-position="1185">
+                  <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -363,6 +406,7 @@
       <find>clear</find>
       <find>get</find>
       <find>kaptKotlin</find>
+      <find>@NonNull</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/build/generated/res/rs/debug</dir>
@@ -3024,24 +3068,30 @@
         <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Generator.kt" />
         <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" />
-        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" />
         <option value="$PROJECT_DIR$/annotation/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" />
         <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt" />
-        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ParserClassGenerator.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Samples.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityParser.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt" />
+        <option value="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ClassGenerator.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
@@ -3156,6 +3206,41 @@
             <path>
               <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="annotation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -3178,15 +3263,6 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="generated" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTestApplication" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="kapt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyTestApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -3287,7 +3363,7 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="android.profiler.active" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="log&#9;FILE&#9;file:///Users/naver/MyTestApplication/app/build/tmp/kotlin-classes/debug/com/example/naver/mytestapplication/LoginActivity.class" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/naver/MyTestApplication/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt&#10;intent&#9;FILE&#9;file:///Users/naver/MyTestApplication/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt&#10;log&#9;FILE&#9;file:///Users/naver/MyTestApplication/app/build/tmp/kotlin-classes/debug/com/example/naver/mytestapplication/LoginActivity.class" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3563,19 +3639,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="23" width="2560" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6474211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37182447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29792148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3586,7 +3662,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8160123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15369341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15329626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21803018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3635,70 +3711,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Samples.kt</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/org/intellij/lang/annotations/JdkConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/annotation/MyClass.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/Process.kt" />
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/Annotations.kt" />
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/annotation/Launcher.kt" />
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/annotation/IntentExtra.kt" />
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/annotation/Processor.kt" />
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/annotation/build/tmp/kapt/main/java_src/__gen/annotation/Cl.java" />
     <entry file="file://$PROJECT_DIR$/annotation/build/tmp/kapt/main/wrappers/annotations.main.txt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -3712,32 +3745,6 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeName.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="117" column="22" lean-forward="false" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/type/TypeMirror.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#38#296#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3756,14 +3763,6 @@
           <folding>
             <element signature="method#putExtra#8;class#Intent#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/KModifier.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3799,25 +3798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/element/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523678402000" expanded="false" signature="148:310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeSpec.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="542" column="19" lean-forward="false" selection-start-line="542" selection-start-column="19" selection-end-line="542" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/naver/mytestapplication/LoginActivity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -3826,85 +3806,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="e#38#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/annotation/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#38#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/tools/Diagnostic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523678402000" expanded="true" signature="489:620" ph="{...}" />
-            <marker date="1523678402000" expanded="false" signature="603:614" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3927,16 +3833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeVariableName.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -3953,20 +3849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/KModifier.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="509">
+          <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -3974,7 +3860,342 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ParserClassGenerator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/FunSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="305" column="13" lean-forward="false" selection-start-line="305" selection-start-column="13" selection-end-line="305" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="387" column="8" lean-forward="false" selection-start-line="387" selection-start-column="8" selection-end-line="387" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Samples.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/code/Symbol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="446" column="25" lean-forward="true" selection-start-line="446" selection-start-column="25" selection-end-line="446" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/dc11619be6c45157a142d3753017544896da8e69/kotlin-stdlib-1.2.41-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Void.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523678402000" expanded="false" signature="248:255" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/kotlinpoet/0.5.0/bad4a10dee8382b2a3011e9de8b68926d20926af/kotlinpoet-0.5.0-sources.jar!/com/squareup/kotlinpoet/TypeName.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="185" column="26" lean-forward="false" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/dc11619be6c45157a142d3753017544896da8e69/kotlin-stdlib-1.2.41-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="560" column="3" lean-forward="true" selection-start-line="560" selection-start-column="3" selection-end-line="560" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/tools/Diagnostic.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/element/Name.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/element/ElementKind.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/annotation/processing/RoundEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/org/jetbrains/annotations/NotNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/element/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523678402000" expanded="false" signature="148:310" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/46bebf5bd40146178cb33c7678f3782a09dea6e4/support-annotations-27.1.1-sources.jar!/android/support/annotation/NonNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/dc11619be6c45157a142d3753017544896da8e69/kotlin-stdlib-1.2.41-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/widget/EditText.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <marker date="1501054011000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1501054011000" expanded="false" signature="138:354" ph="..." />
+            <marker date="1501054011000" expanded="false" signature="434:542" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="601:709" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="786:894" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="988:1096" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1134:1186" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1231:1283" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1341:1393" ph="{...}" />
+            <marker date="1501054011000" expanded="true" signature="1425:1477" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1539:1591" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1643:1695" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1737:1789" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1819:1871" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="1916:1968" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="2020:2072" ph="{...}" />
+            <marker date="1501054011000" expanded="false" signature="2126:2178" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="108" column="37" lean-forward="false" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#366#399#0" expanded="true" />
+            <element signature="e#434#469#0" expanded="true" />
+            <element signature="e#505#540#0" expanded="true" />
+            <element signature="e#574#607#0" expanded="true" />
+            <element signature="e#1830#1852#0" expanded="true" />
+            <element signature="e#2469#2495#0" expanded="true" />
+            <element signature="e#3099#3125#0" expanded="true" />
+            <element signature="e#3741#3766#0" expanded="true" />
+            <element signature="e#4377#4401#0" expanded="true" />
+            <element signature="e#4926#4950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/type/TypeKind.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523678402000" expanded="true" signature="433:440" ph="{}" />
+            <marker date="1523678402000" expanded="true" signature="475:741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/javax/lang/model/type/TypeMirror.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1523678402000" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#847#869#0" expanded="true" />
+            <element signature="e#1252#1278#0" expanded="true" />
+            <element signature="e#1650#1676#0" expanded="true" />
+            <element signature="e#2068#2093#0" expanded="true" />
+            <element signature="e#2479#2503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#38#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#46#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/naver/mytestapplication/LoginActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ClassGenerator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1895">
+          <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+          <folding>
+            <element signature="e#38#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
           <folding />
         </state>
       </provider>

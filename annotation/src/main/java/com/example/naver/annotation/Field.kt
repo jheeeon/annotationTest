@@ -12,12 +12,10 @@ import javax.lang.model.element.Element
  */
 
 class Field(element: Element) {
-    val name: String = element.simpleName.toString()
-    val typeMirror: TypeMirror = element.asType()
-    val typeName: TypeName = typeMirror.asTypeName()
-    val typeArguments: List<TypeName>? = if (typeName is ParameterizedTypeName) typeName.typeArguments else null
-    val parameterName: String = if (StringUtils.isNotBlank(element.getAnnotation(IntentExtra::class.java).key))
-            element.getAnnotation(IntentExtra::class.java).key
-            else this.name
+    val name: String = element.simpleName.toString().removeSuffix("\$annotations")
+    val typeName: TypeName = String::class.asTypeName()
 
+//    val typeMirror: TypeMirror = element.asType()
+//    val typeName: TypeName = typeMirror.asTypeName()
+//    val typeArguments: List<TypeName>? = if (typeName is ParameterizedTypeName) typeName.typeArguments else null
 }
