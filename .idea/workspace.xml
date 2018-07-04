@@ -10,6 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb7258a-e849-4813-8f00-4eca275700fc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/ActivityInfo.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/AnnotationProcessor.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Field.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/IntentExtra.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/Launcher.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/SampleActivityLauncher.kt" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
@@ -203,7 +213,7 @@
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+                  <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -314,8 +324,8 @@
           <file leaf-file-name="MainActivityLauncher.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+                <state relative-caret-position="240">
+                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -3943,14 +3953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/annotation/src/main/java/com/example/naver/annotation/LauncherClassGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -3961,10 +3963,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kaptKotlin/debug/com/example/naver/mytestapplication/MainActivityLauncher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
