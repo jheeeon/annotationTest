@@ -2,20 +2,20 @@ package com.example.naver.mytestapplication
 
 
 import android.os.Bundle
-import android.support.annotation.NonNull
 import android.support.v7.app.AppCompatActivity
 import com.example.naver.annotation.IntentExtra
 import com.example.naver.annotation.Launcher
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlin.reflect.full.declaredFunctions
 
 @Launcher
 class MainActivity: AppCompatActivity() {
 
-    @IntentExtra @NonNull
+    @IntentExtra
     lateinit var email: String
-    @IntentExtra @NonNull
+    @IntentExtra
     lateinit var firstName: String
-    @IntentExtra @NonNull
+    @IntentExtra
     lateinit var lastName: String
     @IntentExtra var password: String? = ""
     @IntentExtra var address: String? = ""
@@ -35,10 +35,18 @@ class MainActivity: AppCompatActivity() {
 
         user_password.text = password
         user_address.text = address
+
+        abc("abc")
+    }
+
+    @Deprecated("Deprecated!", replaceWith = ReplaceWith("StringUtils.isEmpty(string)", imports = ["org.apache.commons.lang3.StringUtils"]))
+    private fun abc(string: String) : Boolean {
+        return false
     }
 
     private fun inject() {
         val parserClass = intent.getSerializableExtra("activityParser") as Class<*>
+        parserClass.javaClass.kotlin.declaredFunctions
         parserClass.getDeclaredMethod("parseAll").invoke(parserClass.getConstructor(this::class.java)?.newInstance(this))
     }
 

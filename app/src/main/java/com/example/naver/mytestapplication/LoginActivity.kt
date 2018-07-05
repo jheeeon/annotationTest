@@ -24,4 +24,10 @@ class LoginActivity : AppCompatActivity() {
     private fun EditText.getString() : String {
         return this.text.toString()
     }
+
+
+    private fun bcd(a:Int) {
+
+    }
+
 }

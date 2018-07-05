@@ -12,7 +12,7 @@ import javax.lang.model.element.Element
  */
 
 class Field(element: Element) {
-    val name: String = element.simpleName.toString().removeSuffix("\$annotations")
+    val name: String = element.simpleName.toString()
     val typeName: TypeName = String::class.asTypeName()
 
 //    val typeMirror: TypeMirror = element.asType()

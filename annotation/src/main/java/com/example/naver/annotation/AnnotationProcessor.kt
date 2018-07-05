@@ -1,13 +1,9 @@
 package com.example.naver.annotation
 
-import android.support.annotation.NonNull
 import com.google.auto.service.AutoService
-import com.squareup.kotlinpoet.asTypeName
+import org.jetbrains.annotations.NotNull
 import java.io.File
-import javax.annotation.processing.AbstractProcessor
-import javax.annotation.processing.Processor
-import javax.annotation.processing.RoundEnvironment
-import javax.annotation.processing.SupportedAnnotationTypes
+import javax.annotation.processing.*
 import javax.lang.model.SourceVersion
 import javax.lang.model.element.Element
 import javax.lang.model.element.TypeElement
@@ -23,57 +19,58 @@ class AnnotationProcessor : AbstractProcessor () {
         return SourceVersion.latest()
     }
 
-    override fun process(set: MutableSet<out TypeElement>, roundEnv: RoundEnvironment): Boolean {
+    override fun process(annotations: MutableSet<out TypeElement>, roundEnv: RoundEnvironment): Boolean {
         activityInfoMap.clear()
-        roundEnv.getElementsAnnotatedWith(IntentExtra::class.java)
-                .forEach {
-                    classifyIntentExtraElement(it)
-                }
-        roundEnv.getElementsAnnotatedWith(Launcher::class.java)
-                .forEach {
-                    classifyLauncherElement(it) }
 
-        if (activityInfoMap.isEmpty()) {
-            processingEnv.messager.printMessage(Diagnostic.Kind.WARNING, "NOTHING TO PROCESS.")
-            return false
-        }
+        annotations.forEach { printMessage("annotations $it ${it.simpleName}") }
 
-        val kaptKotlinGeneratedDir = processingEnv.options["kapt.kotlin.generated"] ?: run {
-            processingEnv.messager.printMessage(Diagnostic.Kind.ERROR, "Can't find the target directory for generated Kotlin files.")
-            return false
-        }
+        roundEnv.getElementsAnnotatedWith(IntentExtra::class.java).forEach { classifyIntentExtraElement(it) }
+        roundEnv.getElementsAnnotatedWith(Launcher::class.java).forEach { classifyLauncherElement(it) }
 
-        activityInfoMap.values.forEach {
-            ClassGenerator(it).generate(File(kaptKotlinGeneratedDir))
-        }
-
-        return true
+        return writeGeneratedClassToFile()
     }
 
     private fun classifyIntentExtraElement(annotatedElement: Element) {
+        printMessage("Classify Intent Extra Element - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
+
         val activity = annotatedElement.enclosingElement
-        val typeMirror = activity.asType()
         val activityName = activity.simpleName.toString()
         val activityFullName = activity.toString()
         val packageName = activity.enclosingElement.toString()
 
         if (!activityInfoMap.containsKey(activityFullName)) {
-            activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName, typeMirror.asTypeName())
+            activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName)
         }
 
         val activityInfo = activityInfoMap[activityFullName]
-        val isRequired = annotatedElement.getAnnotation(NonNull::class.java) != null
+        val isRequired = annotatedElement.getAnnotation(NotNull::class.java) != null
         activityInfo!!.addField(Field(annotatedElement), isRequired)
     }
 
     private fun classifyLauncherElement(annotatedElement: Element) {
-        val typeMirror = annotatedElement.asType()
+//        printMessage("Classify Launcher Element - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
+
         val activityName = annotatedElement.simpleName.toString()
         val activityFullName = annotatedElement.toString()
         val packageName = annotatedElement.enclosingElement.toString()
 
         if (!activityInfoMap.containsKey(activityFullName)) {
-            activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName, typeMirror.asTypeName())
+            activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName)
         }
+    }
+
+    private fun writeGeneratedClassToFile(): Boolean {
+        //build/generated/source/kaptKotlin/{buildType}.{package}에 생성된다
+        val kaptKotlinGeneratedDir = processingEnv.options["kapt.kotlin.generated"] ?: run {
+            processingEnv.messager.printMessage(Diagnostic.Kind.ERROR, "Can't find the target directory for generated Kotlin files.")
+            return false
+        }
+
+        activityInfoMap.values.forEach { ClassGenerator(it).generate(File(kaptKotlinGeneratedDir)) }
+        return true
+    }
+
+    private fun printMessage(message: CharSequence) {
+        processingEnv.messager.printMessage(Diagnostic.Kind.NOTE, message)
     }
 }
