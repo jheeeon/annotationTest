@@ -11,13 +11,13 @@ class Samples {
 //    val intent: Intent = Intent(activity, MainActivity::class.java)
 //            .putExtra("email", email)
 
-//    [REQUIRED]
+//    [[[REQUIRED]]]
 //    var email = email
 //    var firstName = firstName
 //    var lastName = lastName
 //
 //
-//    [OPTIONAL]
+//    [[[OPTIONAL]]]
 //    var password: String? = ""
 //        set(value) {
 //            field = value

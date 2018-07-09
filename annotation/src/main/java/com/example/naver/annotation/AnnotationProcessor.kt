@@ -11,7 +11,7 @@ import javax.tools.Diagnostic
 
 @SupportedAnnotationTypes("com.example.naver.annotation.Launcher", "com.example.naver.annotation.IntentExtra")
 @AutoService(Processor::class)
-class AnnotationProcessor : AbstractProcessor () {
+class AnnotationProcessor : AbstractProcessor() {
 
     private val activityInfoMap: HashMap<String, ActivityInfo> = HashMap()
 
@@ -31,29 +31,32 @@ class AnnotationProcessor : AbstractProcessor () {
     }
 
     private fun classifyIntentExtraElement(annotatedElement: Element) {
-        printMessage("Classify Intent Extra Element - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
+        printMessage("classifyIntentExtraElement - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
 
         val activity = annotatedElement.enclosingElement
-        val activityName = activity.simpleName.toString()
         val activityFullName = activity.toString()
+        val activityName = activity.simpleName.toString()
         val packageName = activity.enclosingElement.toString()
 
+        //Parser 만들 ActivityInfo 추가
         if (!activityInfoMap.containsKey(activityFullName)) {
             activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName)
         }
 
+        //required field, optional field
         val activityInfo = activityInfoMap[activityFullName]
         val isRequired = annotatedElement.getAnnotation(NotNull::class.java) != null
         activityInfo!!.addField(Field(annotatedElement), isRequired)
     }
 
     private fun classifyLauncherElement(annotatedElement: Element) {
-//        printMessage("Classify Launcher Element - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
+        printMessage("classifyLauncherElement - ${annotatedElement.simpleName}  ${annotatedElement.asType()}  ${annotatedElement.kind}  ${annotatedElement.enclosingElement}  ${annotatedElement.annotationMirrors}")
 
         val activityName = annotatedElement.simpleName.toString()
         val activityFullName = annotatedElement.toString()
         val packageName = annotatedElement.enclosingElement.toString()
 
+        //Launcher 만들 ActivityInfo 추가
         if (!activityInfoMap.containsKey(activityFullName)) {
             activityInfoMap[activityFullName] = ActivityInfo(packageName, activityName)
         }
@@ -62,10 +65,11 @@ class AnnotationProcessor : AbstractProcessor () {
     private fun writeGeneratedClassToFile(): Boolean {
         //build/generated/source/kaptKotlin/{buildType}.{package}에 생성된다
         val kaptKotlinGeneratedDir = processingEnv.options["kapt.kotlin.generated"] ?: run {
-            processingEnv.messager.printMessage(Diagnostic.Kind.ERROR, "Can't find the target directory for generated Kotlin files.")
-            return false
+            printMessage("Can't find the target directory for generated Kotlin files.")
+            return false    //writeGeneratedClassToFile 자체가 return false 되는 것. run 자리에 리턴값을 넣고싶으면 return@run
         }
 
+        //activityInfo를 ClassGenerator로 넘겨서 만든 FileSpec을 File로 생성
         activityInfoMap.values.forEach { ClassGenerator(it).generate(File(kaptKotlinGeneratedDir)) }
         return true
     }
